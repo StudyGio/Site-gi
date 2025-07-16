@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,4;0,700;1,400;1,700&display=swap');
+
+h1 {
+    color: #6C63FF;
+    font-size: 2.2rem;
+    font-family: 'Playfair Display', 'Poppins', 'Lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.paginainicial h1 {
+    font-family: 'Playfair Display', 'Poppins'; 
+    margin-bottom: 0; 
+}
+
+h2 {
+    color: #3333338a;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', 'Poppins', 'Lato', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #242323b4;
+    font-size: 1rem;
+    font-family: 'Open Sans', 'Poppins', 'Lato', sans-serif;
+    padding: 10px 20px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.section-main-title {
+    border: 1px solid #dfdbdbfd;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 2.5rem;
+}
+
+.section-main-subtitle {
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 30px;
+    font-size: 1.1rem;
+    padding: 0 20px;
+}
+
+.paginainicial h1 {
+    margin-bottom: 0;
+}
+
+.paginainicial .subtitulo p {
+    padding: 5px 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.formulario p.section-main-subtitle {
+    margin-bottom: 20px;
+}
+
+.person-card h2,
+.contribution-box h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+body {
+    background-color: #E6F0FA;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("IMG/paginainicial.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.w3-bar {
+    width: 100%;
+    text-align: center;
+    
+}
+
+.w3-bar-item {
+    padding: 14px 16px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    background-image: url("IMG/fundopagina.png");
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 20px;
+    
+}
+
+
+.subtitulo {
+    color: #3333338a;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.paginainicial {
+    color: #6C63FF;
+    font-size: 1.25rem;
+    font-family: Open Serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(160, 87, 209, 0.445);
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: fit-content;
+    margin: 20px auto;
+    max-width: 600px;
+    word-wrap: break-word;
+}
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.person-card {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(61, 41, 75, 0.87);
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 380px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+
+.contribuicoes {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(61, 41, 75, 0.87);
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contribution-box {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(74, 0, 143, 0.5);
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contribution-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contribution-box a {
+    color: #6C63FF;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+    display: block;
+}
+
+.ada-contribution-card h2 {
+    margin-bottom: 10px;
+}
+
+.ada-contribution-card img {
+    margin-top: 10px;
+}
+
+
+.formulario {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(74, 0, 143, 0.5);
+    margin: 40px auto;
+    /* Adicionei margem superior e inferior e centralizei */
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    background-color: #FFFFFF;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario label {
+    display: block;
+    /* Cada label em sua própria linha */
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.formulario input[type="text"],
+.formulario input[type="tel"],
+.formulario input[type="email"],
+.formulario textarea {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario textarea {
+    resize: vertical;
+    /* Permite redimensionar verticalmente */
+}
+
+.formulario button {
+    margin-top: 20px;
+    width: auto;
+    /* Deixa o botão com a largura do conteúdo */
+    padding: 12px 25px;
+    /* Ajusta o padding para ser mais amigável */
+}
+
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        padding: 30px 10px;
+        /* Mais padding para mobile */
+        text-align: center;
+    }
+
+    /* W3.CSS Navbar para mobile: O w3-mobile já deve ajudar */
+    .w3-bar-item.w3-mobile {
+        display: block;
+        /* Itens do menu um abaixo do outro */
+        width: 100%;
+        border-right: none;
+        /* Remove a borda direita */
+        border-bottom: 1px solid #594fd0;
+        /* Adiciona borda inferior */
+    }
+
+    .galeria,
+    .boxes {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        /* Reduz o padding em telas menores */
+    }
+
+    .paginainicial,
+    .formulario {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        /* Ajuste para mobile */
+    }
+
+    h2 {
+        font-size: 1.3rem;
+        /* Ajuste para mobile */
+    }
+
+    p {
+        font-size: 0.95rem;
+        /* Ajuste para mobile */
+        padding: 10px;
+        /* Ajuste o padding do parágrafo */
+    }
+
+    .section-main-title {
+        font-size: 2rem;
+        padding: 10px;
+    }
+
+    .section-main-subtitle {
+        font-size: 1rem;
+    }
+
+    .person-card,
+    .contribution-box {
+        max-width: 95%;
+        /* Para garantir que não grude nas bordas */
+        margin: 10px auto;
+        /* Ajusta a margem para mobile, se o gap não for suficiente */
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+button {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #594fd0;
+}
+
+#sobrenos {
+    border: 1px solid #6C63FF;
+    border-radius: 20px;
+    padding: 20px;
+    /* Adicionado padding para o conteúdo dentro da seção */
+    margin-top: 20px;
+    /* Espaçamento com o paginainicial */
+}
+
+footer {
+    background-color: white;
+    margin-top: 0;
+    /* Rodapé agora encostará na seção acima */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer h6 {
+    margin: 5px 0;
+    /* Espaçamento entre os h6 do footer */
+    color: #555;
+    font-size: 0.9rem;
+}
